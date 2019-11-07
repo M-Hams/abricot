@@ -5,61 +5,6 @@
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<style>
-body {
-	margin: 0;
-	padding: 0;
-	color:#fff;
-	font: normal 90% "Trebuchet MS",Verdana,"Lucida Grande",Tahoma,Arial,Helvetica,Sans-Serif;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
-	-webkit-filter: brightness(80%); /* Safari 6.0 - 9.0 */
-  	filter: brightness(80%);
-}
-h2 {
-	font-size: 2em;
-	font-weight:bold;
-	color: #b7db44;
-}
-a {
-	font-weight:bold;
-	color:#fff;
-}
-/* Mise en place des diffÃ©rentes parties / slides */
-#slide1, #slide2, #slide3 {
-	height: 600px;
-	padding-top:100px;
-}
-#slide1 {
-	background:url("https://wallpaperaccess.com/full/937101.jpg") center 0 no-repeat fixed;
-	background-size: cover;
-}
-#slide2 {
-	background: url("https://www.destinationrome.fr/wp-content/uploads/sites/4/resizefly/2017/04/pantheon-rome--696x0@1.jpg") center 0 no-repeat fixed;
-	background-size: cover;
-}
-#slide3 {
-	background: url("https://c.wallhere.com/photos/38/90/New_York_City_city-47406.jpg!d") center 0 no-repeat fixed;
-	background-size: cover;
-}
-/* Gestion du contenu */
-.slide_inside {
-	width: 980px;
-	margin: 0 auto;
-}
-#slide1  .slide_inside {
-	text-align:center;
-}
-#slide2 .slide_inside p {
-	width: 500px;
-	text-align:justify;
-}
-#slide3 .slide_inside {
-	background-color: rgba(0, 0, 0, 0.5);
-	margin-top:50px;
-	padding:50px;
-}
-</style>
-
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Effet parallaxe : étape 2/3</title>

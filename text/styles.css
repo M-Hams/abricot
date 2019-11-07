@@ -1,0 +1,48 @@
+p{
+	color :red;
+}
+
+h1{
+	color:white;
+}
+
+body{
+ 	background-color: black;	
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+________________________________________________________________________________________________
+h1.headline{
+	font-size: 200px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+________________________________________________________________________________________________
+
+
+
+
+
+{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+<a href="http://google.com/" target="_Blank">Google</a>

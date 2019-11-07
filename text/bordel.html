@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*{
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+}  
+
+.bg-image {
+
+
+  /* Add the blur effect */
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 0px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+<div class="row">
+	<div class="column">
+		<div class="container">
+			<img src=https://p3.storage.canalblog.com/32/33/1526221/116706261_o.jpg style="width:100%" class="bg-image">
+		</div>
+	</div>
+	<div class="column">
+		<div class="container">
+			<img src=https://triptyque.com/wp-content/uploads/2018/03/TRIK-TT-V1-FINALE-crop-600x600.jpg style="width:100%" class="bg-image">
+		</div>
+	</div>
+</div>
+
+</body>
+</head>
+</html>

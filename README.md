@@ -1,6 +1,3 @@
-# abricot
-
-
 <!DOCTYPE html>
 <html>
 <head>
